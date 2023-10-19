@@ -128,7 +128,6 @@ dbConnect()
       res.send(result);
     })
 
-
 app.listen(port, () => {
         console.log(`Car Server is running on port : ${port}`);
 })

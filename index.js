@@ -136,21 +136,3 @@ app.listen(port, () => {
 })
 
 
-
-
-// app.put('/car/:id', async(req,res) => {
-//   const id = req.params.id;
-//   const filter = {_id: new ObjectId(id)};
-//   const options = {upsert:true};  
-//   const UpdatedCoffee = req.body;
-//   const coffee = {
-//     $set: {
-//       name: UpdatedCoffee.name,
-//       quantity:UpdatedCoffee.quantity,
-//       supplier:UpdatedCoffee.supplier,
-//       taste:UpdatedCoffee.taste,
-//       category:UpdatedCoffee.category,
-//       details:UpdatedCoffee.details,
-//       photo:UpdatedCoffee.photo
-//     } 
-//   } 
